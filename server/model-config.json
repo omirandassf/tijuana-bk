@@ -43,5 +43,9 @@
   "plainUsers": {
     "dataSource": "mongo",
     "public": true
+  },
+  "postEvents": {
+    "dataSource": "mongo",
+    "public": true
   }
 }

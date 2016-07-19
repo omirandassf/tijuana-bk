@@ -1,0 +1,34 @@
+{
+  "name": "postEvents",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "eventName": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "number",
+      "required": true
+    },
+    "fromDate": {
+      "type": "date",
+      "required":true
+    },
+    "toMyDate": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
